@@ -1,0 +1,173 @@
+@import url(m_style.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrap .qie {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap .qie .huan {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap .qie .huan header {
+  width: 100%;
+  height: 4rem;
+  background: #ff5102;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap .qie .huan header > div {
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.wrap .qie .huan header .zhong {
+  -webkit-box-flex: 1;
+  text-align: center;
+  position: relative;
+}
+.wrap .qie .huan header .zhong input {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  background: width;
+  border: none;
+  text-align: center;
+}
+.wrap .qie .huan header .zhong input::-webkit-input-placeholder {
+  color: saddlebrown;
+}
+.wrap .qie .huan header .zhong .aa {
+  position: absolute;
+  left: 21px;
+  margin-top: 5px;
+}
+.wrap .qie .huan header .zhong .bb {
+  position: absolute;
+  right: 21px;
+  margin-top: 5px;
+}
+.wrap .qie .huan section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap .qie .huan section::-webkit-scrollbar {
+  width: 0;
+}
+.wrap .qie .huan section .box1 {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-top: 1rem;
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .box1 ul {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap .qie .huan section .box1 ul li {
+  display: none;
+}
+.wrap .qie .huan section .box1 ul .show {
+  display: block;
+}
+.wrap .qie .huan section .box1 img {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap .qie .huan section .top {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap .qie .huan section .top dl {
+  text-align: center;
+  -webkit-box-flex: 1;
+  margin-top: 1rem;
+  color: #9f9f9f;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .top1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .top1 .top2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  margin-left: 1rem;
+  color: #4a4a4a;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .logo {
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .logo .logo_img {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap .qie .huan section .logo .logo_img > div {
+  -webkit-box-flex: 1;
+  text-align: center;
+  box-sizing: border-box;
+}
+.wrap .qie .huan section .logo .logo_img > div img {
+  width: auto;
+  height: 80px;
+  background: none;
+}
+.wrap .qie .huan section .logo .logo_img .ww {
+  border-right: 1px solid #ccc;
+}
+.wrap footer {
+  width: 100%;
+  height: 4rem;
+  background: #f8f7f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 2px solid #e4e4e4;
+}
+.wrap footer dl {
+  text-align: center;
+  -webkit-box-flex: 1;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+  color: #c5c5c7;
+  box-sizing: border-box;
+}
+.wrap footer .gog {
+  color: #007AFF;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/taobao.css" />
+		<script src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="qie">
+			<div class="huan">
+			<header>
+				<div class="left">
+					<img src="images/ss2_03.jpg" />
+				</div>
+					<div class="zhong"><img src="images/t5_15.jpg" class="aa"/><input type="text"placeholder="你的时代是多少"  /><img src="images/w4_13.jpg" class="bb"/></div>
+					<div class="right"><img src="images/232_05.jpg "/></div>
+				
+			</header>
+			<section id="section">
+
+			<div class="box1">
+			<ul>
+			<li class="show"><img src="images/图片3_09.jpg"/></li>
+			<li><img src="images/未标题-1.jpg"</li>
+			<li><img src="images/未标题-222.jpg"</li>
+			</ul>
+			</div>
+				<div class="top ">
+					<dl>
+						<dt><img src="images/图片01_12.jpg "/></dt>
+						<dd>天猫</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片02_14.jpg "/></dt>
+						<dd>聚划算</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片03_16.jpg "/></dt>
+						<dd>天猫国际</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片04_18.jpg "/></dt>
+						<dd>外卖</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片04_20.jpg "/></dt>
+						<dd>天猫超市</dd>
+					</dl>
+				</div>
+				<div class="top ">
+					<dl>
+						<dt><img src="images/图片01_12.jpg "/></dt>
+						<dd>天猫</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片02_14.jpg "/></dt>
+						<dd>聚划算</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片03_16.jpg "/></dt>
+						<dd>天猫国际</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片04_18.jpg "/></dt>
+						<dd>外卖</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/图片04_20.jpg "/></dt>
+						<dd>天猫超市</dd>
+					</dl>
+				</div>
+				<div class="top1 ">
+					<img src="images/图片05_03.jpg "/>
+					<div class="top2 ">
+						<p><img src="images/图片06_06.jpg "/>太实用了！sds新功能曝光</p>
+					     <p><img src="images/图片06_06.jpg "/>男生平均身高出炉，你托后腿了么。</p>
+					</div>
+					
+				</div>
+				
+				<div class="logo ">
+					<div class="logo_img">
+						<div><img src="images/图片11_03.jpg"/></div>
+						<div><img src="images/图片09_03.jpg"/></div>
+	                    <div class="ww"></div>
+						<div><img src="images/图片12_03.jpg"/></div>
+						<div><img src="images/wew111_03.jpg"/></div>
+					</div>
+				
+				</div>
+				<div class="logo ">
+					<div class="logo_img">
+						<div><img src="images/图片11_03.jpg"/></div>
+						<div><img src="images/图片09_03.jpg"/></div>
+	                    <div class="ww"></div>
+						<div><img src="images/图片12_03.jpg"/></div>
+						<div><img src="images/wew111_03.jpg"/></div>
+					</div>
+				
+				</div>
+			</section>
+			</div>
+			<div class="one">1</div>
+			<div class="two">3</div>
+			<div class="san">2</div>
+			</div>
+			
+			<footer>
+				<dl class="gog">
+					<dt><img src="images/s1_07.jpg "/></dt>
+					<dd style="color: red; ">首页</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/t5_15.jpg "/></dt>
+					<dd>微淘</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/w4_13.jpg "/></dt>
+					<dd>问大家</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/d2_09.jpg "/></dt>
+					<dd>购物车</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/e3_11.jpg "/></dt>
+					<dd>我的淘宝</dd>
+				</dl>
+			</footer>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.js"></script>
+	<script type="text/javascript ">
+		$(function(){
+			play();
+			var index=0;
+			function play(){
+				setInterval(function(){
+					index++;
+					if(index>3){
+						index=0;
+					}
+					$(".box1 ul li ").eq(index).addClass("show ").
+					siblings().removeClass("show ");
+				},2000);
+			}
+		})
+	$(function(){
+	  $btn=$('footer dl');
+	  $btn.on('click',function(){
+	  	 var index=$(this).index();
+	  	$(this).addClass('gog').siblings().removeClass('gog');
+	  	$('.qie>div').hide().eq(index).show();
+	  })
+	})
+	</script>
+		
+			
+</html>
